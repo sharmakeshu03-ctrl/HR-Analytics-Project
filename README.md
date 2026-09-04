@@ -71,6 +71,4 @@ HR-Analytics-Project/
 
 └── README.md
 
-## 👤 Author
 
-Krishan Sharma<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/f854d909-3475-47eb-bb43-86144d5e8c7e" />
