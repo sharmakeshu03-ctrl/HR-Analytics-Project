@@ -1,12 +1,19 @@
-# HR Analytics SQL Project
+# HR Analytics Project
 
 ## 📌 Project Overview
 
-This project focuses on analyzing HR employee data using SQL to generate meaningful insights related to employee engagement, performance, training, satisfaction, and department-wise metrics.
+This project focuses on analyzing HR employee data to generate meaningful insights related to employee engagement, satisfaction, training, employee status, gender, department, state, and employee exits.
+
+The project demonstrates an end-to-end Data Analytics workflow using SQL, Python, Pandas, and Power BI.
 
 ## 🎯 Project Objective
 
-The main objective of this project is to use SQL queries to analyze cleaned HR data and answer real-world HR analytics questions.
+The main objective is to analyze cleaned HR data and answer real-world HR analytics questions using:
+
+- SQL for data analysis
+- Python and Pandas for data cleaning and analysis
+- Power BI for interactive dashboard development
+- DAX for HR metrics and KPIs
 
 ## 🛠️ Tools & Technologies
 
@@ -14,61 +21,74 @@ The main objective of this project is to use SQL queries to analyze cleaned HR d
 - Python
 - Pandas
 - PandasSQL
+- Power BI
+- DAX
 - Google Colab
 - GitHub
 
-## 📊 Dataset
+## 📊 Power BI Dashboard
 
-The project uses a cleaned HR dataset containing employee information such as:
+The Power BI dashboard provides insights into:
 
-- Employee Name
-- Department
-- Employee Status
-- Performance Score
-- Engagement Score
-- Satisfaction Score
-- Training Type
-- Training Cost
-
-## 🔍 SQL Analysis
-
-A total of **20 SQL questions** were created and solved using the cleaned HR dataset.
-
-The analysis includes:
-
-- Department-wise employee analysis
+- Total Employees
+- Active Employees
+- Exited Employees
+- Female Employees
+- Female Employee %
 - Average Engagement Score
-- Satisfaction Score analysis
-- Training Cost analysis
-- Performance analysis
-- Active employee count
-- High/Medium/Low engagement classification
-- Maximum Training Cost by department
-- Top-performing employees
+- Average Satisfaction Score
+- Average Training Cost
+- Employee Exits by Department
+- Employee Exits by Gender
+- Employee Exits by Status
+- Employee Exits by State
+- Employee Exits by Year
 
-## 💡 SQL Concepts Used
+## 🐍 Python Analysis
 
-- SELECT
-- WHERE
-- GROUP BY
-- HAVING
-- ORDER BY
-- COUNT()
-- AVG()
-- MAX()
-- CASE
-- CTE
-- JOIN
-- Window Functions
+Python and Pandas were used for:
 
-## 📁 Project Structure
+- Data inspection
+- Data cleaning
+- Handling missing values
+- Removing duplicate records
+- Data preparation
+- Exporting the cleaned dataset
 
-HR-Analytics-Project/
+## 🗄️ SQL Analysis
 
-├── SQL/
+SQL was used to perform HR analytics such as:
 
-│   └── HR_Analytics_SQL_with_Questions.sql
+- Aggregations
+- GROUP BY and HAVING
+- JOIN operations
+- Subqueries
+- CTEs
+- Window functions
+- Employee and department-level analysis
 
-└── README.md
+## 📁 Project Files
+
+| File | Description |
+|---|---|
+| `HR_Analytics_Dashboard.pbix` | Power BI dashboard |
+| `Dashboard_Screenshot.png` | Dashboard preview |
+| `HR_Analytics_Python.ipynb` | Python/Pandas analysis |
+| `HR_Cleaned_Data.csv` | Cleaned HR dataset |
+| `SQL/` | SQL queries and analysis |
+| `README.md` | Project documentation |
+
+## 📈 Key Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- SQL Analytics
+- Python & Pandas
+- DAX
+- KPI Development
+- Data Visualization
+- Power BI Dashboard Development
+- GitHub Project Documentation
 
 
+Data Analyst | SQL | Python | Power BI | DAX
