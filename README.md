@@ -90,5 +90,9 @@ SQL was used to perform HR analytics such as:
 - Power BI Dashboard Development
 - GitHub Project Documentation
 
+### Tableau Dashboard
+
+Interactive HR Analytics Dashboard built using Tableau. The dashboard explores employee distribution by department, gender, status, state, and exit year.
+
 
 Data Analyst | SQL | Python | Power BI | DAX
